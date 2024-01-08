@@ -8,3 +8,13 @@ Mi experiencia abarca desde la creación de sitios web utilizando HTML, CSS y Ja
 Espero que disfrutes explorando mi trabajo y te invito a contactarme si tienes alguna pregunta o si estás interesado en contratarme para algun proyecto.
 
 ¡Gracias por visitar mi portafolio!
+
+
+---------------------------------------------
+Hello! My name is Sofia and I welcome you to my professional portfolio. As a certified Frontend ReactJS web developer, I am pleased to share a variety of projects I have worked on.
+
+My experience ranges from creating websites using HTML, CSS, and Javascript, to developing more complex applications with ReactJS, a skill I have recently acquired and has greatly enriched my skill set.
+
+I hope you enjoy exploring my work and I invite you to contact me if you have any questions or if you are interested in hiring me for a project.
+
+Thank you for visiting my portfolio!
