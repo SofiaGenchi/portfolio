@@ -6,9 +6,11 @@ fetch('data.json')
     data.forEach(proyecto => {
         divProyecto.innerHTML += `
         <div class="card">
-        <div class="image"></div>
+        <div class="image">
+            <img src="${proyecto.img}" alt="${proyecto.descripcion}">
+        </div>
          <div class="content">
-           <a href="#">
+           <a target="_blank" href="${proyecto.link}">
              <span class="title">
                ${proyecto.nombre}
              </span>
@@ -16,12 +18,7 @@ fetch('data.json')
        
            <p class="desc">${proyecto.descripcion}</p>
        
-           <a class="action" href="#">
-             Find out more
-             <span aria-hidden="true">
-               →
-             </span>
-           </a>
+           <a class="action" target="_blank" href="${proyecto.linkGitHub}">GitHub</a>
          </div>
        </div>
         `

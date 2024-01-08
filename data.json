@@ -1,44 +1,23 @@
 [
     {
-        "nombre": "Proyecto 1",
-        "descripcion": "Descripcion del proyecto 1",
-        "img": "url de la img",
-        "linkGitHub": "link de git",
-        "link": "link"
+        "nombre": "AdidaStore",
+        "descripcion": "Este es un proyecto para crear una e-commerce con ReactJs. Tomando como referencia la pagina oficial de Adidas.",
+        "img": "./img/adidas-store.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/adidas",
+        "link": "https://adidas-zeta.vercel.app/"
     },
     {
-        "nombre": "Proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
-        "img": "url de la img 2",
-        "linkGitHub": "link de git 2",
-        "link": "link 2"
+        "nombre": "AI-Image-Generation",
+        "descripcion": "Sitio web para generar imágenes mediante prompts que serán analizados por una API de la IA ChatGPT. HTML, CSS y Javascript.",
+        "img": "./img/ia-image-generator.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/AI-Image-Generation",
+        "link": "https://ai-image-generation-rho.vercel.app/"
     },
     {
-        "nombre": "Proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
-        "img": "url de la img 2",
-        "linkGitHub": "link de git 2",
-        "link": "link 2"
-    },
-    {
-        "nombre": "Proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
-        "img": "url de la img 2",
-        "linkGitHub": "link de git 2",
-        "link": "link 2"
-    },
-    {
-        "nombre": "Proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
-        "img": "url de la img 2",
-        "linkGitHub": "link de git 2",
-        "link": "link 2"
-    },
-    {
-        "nombre": "Proyecto 2",
-        "descripcion": "Descripcion del proyecto 2",
-        "img": "url de la img 2",
-        "linkGitHub": "link de git 2",
-        "link": "link 2"
+        "nombre": "Estudio Inmobiliario",
+        "descripcion": "Proyecto web para un estudio inmobiliario. Hecho con ReactJS.",
+        "img": "./img/mc-estudio-gif.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/mc-estudio-inmobiliario",
+        "link": "https://www.mariainesestudioinmobiliario.com.ar/"
     }
 ]
