@@ -7,4 +7,4 @@ Mi experiencia abarca desde la creación de sitios web utilizando HTML, CSS y Ja
 
 Espero que disfrutes explorando mi trabajo y te invito a contactarme si tienes alguna pregunta o si estás interesado en contratarme para algun proyecto.
 
-###¡Gracias por visitar mi portafolio!
+¡Gracias por visitar mi portafolio!
