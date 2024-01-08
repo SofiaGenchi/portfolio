@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: sandybrown;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.box-logo {
+    background-color: black;
+    border-radius: 50%;
+    width: 2.7rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box-logo h2 {
+    display: flex;
+}
+
+.link-logo {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: black;
+}
+
+/* home */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height: 55vh;
+}
+
+.box-uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 20rem;
+    height: 20rem;
+}
+
+.box-uno h1 {
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 10rem;
+}
+
+.box-dos h2 {
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.home h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #d96704;
+}
+
+.home p {
+    font-size: 1rem;
+    text-align: center;
+    color: #f29f05;
+}
+
+
+
+/* @media */
+@media screen and (max-width: 425px){
+    header {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .box-logo {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home {
+        padding: 20px;
+        margin-top: 25%;
+        flex-direction: column;
+    }
+
+    .home p {
+        font-size: 1.2rem;
+    }
+}
