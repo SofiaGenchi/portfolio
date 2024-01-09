@@ -205,25 +205,33 @@ nav a:hover {
   .action:hover span {
     transform: translateX(4px);
   }
-  
 
-/* footer tarjeta de contacto -------------------- */
-footer {
+  .contacto {
+    height: 100vh;
+    margin-top: 5%;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-}
-.card {
+    justify-content: center;
+  }
+
+  .contacto h2 {
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+  }
+  
+  .card-contacto {
     width: fit-content;
     height: fit-content;
-    /* background-color: rgb(238, 238, 238); */
+    background-color: rgb(238, 238, 238);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 25px 25px;
     gap: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    flex-direction: row;
+    margin: 5% auto;
   }
   
   /* for all social containers*/
@@ -274,6 +282,21 @@ footer {
   .socialContainer:hover .socialSvg {
     animation: slide-in-top 0.3s both;
   }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+
   
   @keyframes slide-in-top {
     0% {

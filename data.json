@@ -15,9 +15,16 @@
     },
     {
         "nombre": "Estudio Inmobiliario",
-        "descripcion": "Proyecto web para un estudio inmobiliario. Hecho con ReactJS.",
+        "descripcion": "Sitio web desarrollado con HTML, CSS y Javascript para generar colores degradados.",
         "img": "./img/mc-estudio-gif.gif",
         "linkGitHub": "https://github.com/SofiaGenchi/mc-estudio-inmobiliario",
         "link": "https://www.mariainesestudioinmobiliario.com.ar/"
+    },
+    {
+        "nombre": "Gradient Color Generator",
+        "descripcion": "Proyecto web para un estudio inmobiliario. Hecho con ReactJS.",
+        "img": "./img/colorgradient.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/Gradient-Color-Generator",
+        "link": "https://gradient-color-generator-seven.vercel.app"
     }
 ]
