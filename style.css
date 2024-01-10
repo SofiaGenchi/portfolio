@@ -282,7 +282,33 @@ nav a:hover {
   .socialContainer:hover .socialSvg {
     animation: slide-in-top 0.3s both;
   }
+
+  /* Footer */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    background: black;
+    color: white;
+  }
   
+  .container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+.container ul li a {
+  color: white;
+}
+
+.container p {
+  word-spacing: 5px;
+}
+
   @keyframes slide-in-top {
     0% {
       transform: translateY(-50px);
