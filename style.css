@@ -521,7 +521,7 @@ nav a:hover {
   }
 } */
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   /* barra de navegacion */
   header {
     font-size: 12px;
@@ -615,7 +615,7 @@ nav a:hover {
 
 
 /* @media tablet --------*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   /* logo SG FrontendDevelopment ----------------*/
 
   .box-uno {
