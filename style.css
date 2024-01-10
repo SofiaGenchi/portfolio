@@ -347,7 +347,7 @@ nav a:hover {
 
 
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
   /* barra de navegacion */
   header {
     width: 260px;
