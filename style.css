@@ -206,6 +206,42 @@ nav a:hover {
   transform: translateX(4px);
 }
 
+/* certificaciones---------------------------------- */
+.certificaciones {
+  margin-top: 10%;
+}
+.certificaciones h2 {
+  font-family: "Plaster", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.caja-certificados {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-certificaciones {
+  width: 400px;
+  height: 290px;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 0.3em 0.3em 0.7em #00000015;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+ }
+ 
+ .card-certificaciones:hover {
+  border: orangered 0.2em solid;
+ }
+
+ .card-certificaciones img {
+  width: 400px;
+  height: 290px;
+ }
+ 
+
+/* contacto ----------------------------- */
 .contacto {
   height: 100vh;
   margin-top: 5%;
@@ -369,6 +405,20 @@ nav a:hover {
   .contacto {
     margin-top: 50%;
   }
+
+  .certificaciones {
+    margin-top: 50%;
+  }
+
+.card-certificaciones{
+    width: 200px;
+    height: 200px;
+  }
+
+  .caja-certificados img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* telefono */
@@ -416,6 +466,22 @@ nav a:hover {
   .contacto h2 {
     font-size: 2.5rem;
   }
+
+  .certificaciones {
+    margin-top: 120%;
+  }
+
+  .certificaciones h2 {
+    font-size: 2rem;
+  }
+  .caja-certificados {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-certificaciones {
+    margin-top: 20px;
+  }
 }
 
 
@@ -452,5 +518,21 @@ nav a:hover {
 
   footer {
     font-size: small;
+  }
+
+  .certificaciones {
+    margin-top: 300%;
+  }
+
+  .certificaciones h2 {
+    font-size: 1.5rem;
+  }
+
+  .caja-certificados {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-top: 0;
+    padding: 20px;
   }
 }
