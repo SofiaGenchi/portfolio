@@ -200,6 +200,134 @@ nav a:hover {
  }
  
 
+/* contacto ---------------------------------------- */
+.contacto {
+  margin: 20% auto;
+}
+.card-contacto {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  flex-direction: row;
+  margin: 5% auto;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: 0.3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128c7e;
+  transition-duration: 0.3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+
+/* footer ----------------------------------------- */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  background: black;
+  color: white;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
+  /* width: 500px; */
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.container ul li a {
+  color: white;
+}
+
+.container a:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.container p {
+  word-spacing: 5px;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
 
 
 @media screen and (max-width: 320px){
@@ -268,5 +396,22 @@ nav a:hover {
   .card-certificaciones img {
     width: 250px;
     height: 250px;
+  }
+
+  /* contacto ----------------------------------------- */
+  .contacto h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Plaster', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* footer --------------------------------- */
+  footer {
+    font-size: 12px;
+    text-align: center;
   }
 }
