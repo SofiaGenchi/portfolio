@@ -26,5 +26,12 @@
         "img": "./img/colorgradient.gif",
         "linkGitHub": "https://github.com/SofiaGenchi/Gradient-Color-Generator",
         "link": "https://gradient-color-generator-seven.vercel.app"
+    },
+    {
+        "nombre": "QR Code Generator",
+        "descripcion": "Sitio web desarrollado con HTML, CSS y Javascript para generar codigos QR",
+        "img": "./img/qrcodeweb.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/QRcode",
+        "link": "https://sofiagenchi.github.io/QRcode/"
     }
 ]
