@@ -33,5 +33,12 @@
         "img": "./img/qrcodeweb.gif",
         "linkGitHub": "https://github.com/SofiaGenchi/QRcode",
         "link": "https://sofiagenchi.github.io/QRcode/"
+    },
+    {
+        "nombre": "Biovida",
+        "descripcion": "Sitio web desarrollado con HTML, CSS y Javascript para curso de Desarrollo Web",
+        "img": "./img/biovidaweb.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/BioVida-Genchi",
+        "link": "https://sofiagenchi.github.io/BioVida-Genchi/"
     }
 ]
