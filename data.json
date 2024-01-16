@@ -7,6 +7,13 @@
         "link": "https://adidas-zeta.vercel.app/"
     },
     {
+        "nombre": "NikeWebSite",
+        "descripcion": "Tailwind CSS | Build and Deploy a Nike Website",
+        "img": "./img/nikewebsite-gif.gif",
+        "linkGitHub": "https://github.com/SofiaGenchi/nikewebsite",
+        "link": "https://nikewebsite-swart.vercel.app/"
+    },
+    {
         "nombre": "AI-Image-Generation",
         "descripcion": "Sitio web para generar imágenes mediante prompts que serán analizados por una API de la IA ChatGPT. HTML, CSS y Javascript.",
         "img": "./img/ia-image-generator.gif",
