@@ -51,7 +51,7 @@
     {
         "nombre": "3D B&W Background Animation",
         "descripcion": "CSS 3D background animation effects",
-        "img": "",
+        "img": "./img/3dbackgrounanimation.gif",
         "linkGitHub": "https://github.com/SofiaGenchi/CSS-3D-Background-Animation-Effects",
         "link": "https://sofiagenchi.github.io/CSS-3D-Background-Animation-Effects/"
     }
