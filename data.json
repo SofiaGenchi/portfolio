@@ -47,5 +47,12 @@
         "img": "./img/biovidaweb.gif",
         "linkGitHub": "https://github.com/SofiaGenchi/BioVida-Genchi",
         "link": "https://sofiagenchi.github.io/BioVida-Genchi/"
+    },
+    {
+        "nombre": "3D B&W Background Animation",
+        "descripcion": "CSS 3D background animation effects",
+        "img": "",
+        "linkGitHub": "https://github.com/SofiaGenchi/CSS-3D-Background-Animation-Effects",
+        "link": "https://sofiagenchi.github.io/CSS-3D-Background-Animation-Effects/"
     }
 ]
